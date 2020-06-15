@@ -1,6 +1,20 @@
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 50px 0;
+}
+
+.card{
+  margin: 0 2% !important
+}
+
+.infected {
+  border-bottom: 10px solid rbga(0, 0, 255, 0.5)
+}
+
+.recovered {
+  border-bottom: 10px solid rbga(0, 255, 0, 0.5)
+}
+
+.deaths {
+  border-bottom: 10px solid rbga(255, 0, 0, 0.5)
 }
